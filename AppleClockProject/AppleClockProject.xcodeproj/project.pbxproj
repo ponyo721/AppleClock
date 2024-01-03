@@ -15,6 +15,7 @@
 		FD1D909A2B4590E400B6F034 /* AppleClockProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1D90992B4590E400B6F034 /* AppleClockProjectTests.swift */; };
 		FD1D90A42B4590E400B6F034 /* AppleClockProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1D90A32B4590E400B6F034 /* AppleClockProjectUITests.swift */; };
 		FD1D90A62B4590E400B6F034 /* AppleClockProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1D90A52B4590E400B6F034 /* AppleClockProjectUITestsLaunchTests.swift */; };
+		FD1D90B32B45ACB900B6F034 /* WorldClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1D90B22B45ACB900B6F034 /* WorldClockViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FD1D909F2B4590E400B6F034 /* AppleClockProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleClockProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD1D90A32B4590E400B6F034 /* AppleClockProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleClockProjectUITests.swift; sourceTree = "<group>"; };
 		FD1D90A52B4590E400B6F034 /* AppleClockProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleClockProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FD1D90B22B45ACB900B6F034 /* WorldClockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				FD1D90822B4590E200B6F034 /* AppDelegate.swift */,
 				FD1D90842B4590E200B6F034 /* SceneDelegate.swift */,
 				FD1D90882B4590E200B6F034 /* Main.storyboard */,
+				FD1D90B22B45ACB900B6F034 /* WorldClockViewController.swift */,
 				FD1D908B2B4590E400B6F034 /* Assets.xcassets */,
 				FD1D908D2B4590E400B6F034 /* LaunchScreen.storyboard */,
 				FD1D90902B4590E400B6F034 /* Info.plist */,
@@ -255,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD1D90B32B45ACB900B6F034 /* WorldClockViewController.swift in Sources */,
 				FD1D90832B4590E200B6F034 /* AppDelegate.swift in Sources */,
 				FD1D90852B4590E200B6F034 /* SceneDelegate.swift in Sources */,
 			);
